@@ -1,0 +1,32 @@
+* When we apply a coupon code with 0 amount need to do success payment -------Fixed
+* Messaging system with read and unread and without select any user send message and message count-------Fixed
+* Questions excel upload support html content also (update code at read excel method)-------Fixed
+* When we try to install with data need to skip registration page-------Fixed
+* Update get_contect method in installation controller
+* Remove unwabted created files (Storege/framework) Dasborad controller use artisin clear line code added in owner/admin
+* "Payments controller Payu_sucess, paypal_sucess, approve_offline paymets, approve_payments remove password message
+* Need to update catch block message and validate approve payment zero discount"
+* User controller Update mthod remove one line may be 451
+* "Vendor/laravel/framework/src/illuminate/auth/passwords/passwordbroker.php email recend link method update catch code 
+and update use exception also"
+* LMS should be uppercase in all pages (Settings, Categories, Series, Contents, Coupon create) (Admin, student, parent)
+* In New parent module when we check subscription details it shows all students subscriptions
+* Forgot password ecxcption for email (try catch block)
+* Online and Offile Payments page breadcrumb issues
+* Need to update site title
+* Remove Escape Characters in options while entering the question answers
+* Same answer in multiple questions will not checked when question type is Check Box
+* Url restrctions (If one student paid LMS contents copy the url and paste to any onther student it is accepting)
+* Student quiz controller, process answer method add is_numeric function after for each loop to accept only number as a key
+* While uploading image to questions we get an error while taking exam (sol: Exam form put image getcode before $image_path variable)
+* Token exception issue (We are stay in one form after 1 or 2 hour when we click it shows exception error page)
+* LMS should be upload zip files only
+* Login as a Owner or parent --View answer key page when we click Analysis in breadcrumb it shows owner url 
+* in Degree/PG system while view the course subjects in allocate staff to course module first sem subjects are missing-->update semister+1 in mastersettings/course-subjects/list-subjects-for-course
+* Add Grades in results if course type is GPA
+* with updating student admisssion details is not applicable to take the exam
+* Unique slug is not created--- vendor/laravel/framework/src/illuminate/database/eloquent/model.php upadate make slug method
+* Offline payment is done(Quiz or LMS), Then admin deleted Quiz or LMS in this case when we approve the offline payment issue 
+* Payments controller approve offline payment method define a message variable with null
+* Update student admission details-put DoJ-null, Parent course id=0 and corse id=0
+* In Messenger_messages table add deleted_at column with data type timestamp default value null
